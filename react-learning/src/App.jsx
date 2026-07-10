@@ -9,7 +9,9 @@ function App() {
     <>
       <h1>Hello I am Shankaragouda</h1>
       <p>I am learning react.js classes</p>
-      <button style={{backgroundColor:'green'}}> click me</button>
+      <p>now its start with with basic folderstructure then we can understand how to write code</p>
+
+      <button style={{ backgroundColor: 'green' }}> click me</button>
     </>
   )
 }
