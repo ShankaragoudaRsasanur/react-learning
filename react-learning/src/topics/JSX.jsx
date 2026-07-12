@@ -39,3 +39,51 @@
 // }
 
 // export default App;//
+
+// //props topic
+
+//  Props are used to send data from one component to another component, mainly from a parent component to a child component.//
+// /Props help us:
+
+// Pass data between components.
+// Create reusable components.
+// Avoid duplicate code.
+// Display dynamic content.
+// Build maintainable applications.
+
+// App.jsx
+//   ↓
+// Parent component
+//   ↓
+// <Student name="Shankaragouda" />
+//   ↓
+// Props carries data
+//   ↓
+// Student.jsx receives data
+//   ↓
+// {name}
+//   ↓clear
+// Browser displays:
+// Hello Shankaragouda
+
+// topic on state 
+//  state is like a variable in react  and states are changes at that time  react will update automaicallu
+// baasic syntax for the state is
+// const[state ,setstae]=useState(intialValue);
+// import { useState } from "react";
+//       example for state
+// function App() {
+
+//   const [count, setCount] = useState(0);
+
+//   return (
+//     <div>
+
+//       <h1>Count: {count}</h1>
+
+//       <button onClick={() => setCount(count + 1)}> Increase  </button>
+//     </div>
+//   );
+// }
+
+// export default App;cd
