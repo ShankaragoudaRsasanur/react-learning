@@ -1,4 +1,4 @@
-// jsx/// 
+// jsx
 // it is javascript xml and it allows us write the html like code inside the javascript  
 
 // it is syntax extension  for javascript that allows us to write the html like syntax inside the javascript   
@@ -40,7 +40,7 @@
 
 // export default App;//
 
-// //props topic
+// props topic
 
 //  Props are used to send data from one component to another component, mainly from a parent component to a child component.//
 // /Props help us:
@@ -86,4 +86,90 @@
 //   );
 // }
 
-// export default App;cd
+// export default App;
+
+
+//  hooks topic
+// hooks means   in react it give the extra power to functional componets
+// Hook	Main use
+// useState	->  Store and update data
+// useEffect	 -> Handle side effects, API calls, timers
+// useContext	-> Share data globally
+// useRef	 ->Access DOM elements or store mutable values
+// useReducer	->  Manage complex state
+// useMemo	  -->Optimize expensive calculations
+// useCallback  -->	Optimize functions
+
+//   1.useState with exmple
+// use statee we can used in react store the  data and upadate  in side the  functional component purpose we can use the  useState
+// Syntax
+// const [state, setState] = useState(initialValue);
+//      Example:
+
+//     const [count, setCount] = useState(0);
+
+// Here:
+
+// count       → Current value
+// setCount    → Function used to update count
+// 0           → Initial value
+
+
+// import { useState } from "react";
+
+// function Counter() {
+
+//     const [count, setCount] = useState(0);
+
+//     return (
+//         <div>
+
+//             <h1>Count: {count}</h1>
+
+//             <button onClick={() => setCount(count + 1)}>
+//                 Increase
+//             </button>
+
+//         </div>
+//     );
+// }
+
+// export default Counter;
+
+//      use state  example
+
+// example: Change Name
+// import { useState } from "react";
+
+// function App() {
+//   const [name, setName] = useState("Guest");
+
+//   return (
+//     <div>
+//       <h1>Hello {name}</h1>
+
+//       <button onClick={() => setName("Shankaragouda")}>
+//         Change Name
+//       </button>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// useState can be sored  in below many ways
+
+// // Number
+// const [count, setCount] = useState(0);
+
+// // String
+// const [name, setName] = useState("Guest");
+
+// // Boolean
+// const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+// // Array
+// const [products, setProducts] = useState([]);
+
+// // Object
+// const [user, setUser] = useState({});
