@@ -39,8 +39,6 @@
 // }
 
 // export default App;//
-<<<<<<< HEAD
-=======
 
 // props topic
 
@@ -175,21 +173,3 @@
 
 // // Object
 // const [user, setUser] = useState({});
-
-// in useEffect
-
-// No array
-// useEffect(() => {})
-// ↓
-// After every render
-
-// Empty array
-// useEffect(() => {}, [])
-// ↓
-// After initial mount
-
-// Dependency
-// useEffect(() => {}, [count])
-// ↓
-// After initial render and when count changes
->>>>>>> 1769fa1 (useEffect on fetch api example)

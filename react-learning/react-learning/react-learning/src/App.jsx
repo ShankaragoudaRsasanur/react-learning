@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <h1>Hello I am Shankaragouda</h1>
-      <h2>I am learning react.js classes</h2>
+      <p>I am learning react.js classes</p>
       <p>now its start with with basic folderstructure then we can understand how to write code</p>
 
-      <button> click me</button>
+      <button style={{ backgroundColor: 'green' }}> click me</button>
     </>
   )
 }
