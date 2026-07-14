@@ -1,10 +1,10 @@
 
-import StudentCard from "./Assignment/Student-attendence/StudentCard";
+// import StudentCard from "./Assignment/Student-attendence/StudentCard";
 // import { useEffect, useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
-import './App.css'
+// import './App.css'
 
 // function App() {
 //   return (
@@ -133,24 +133,25 @@ import './App.css'
 
 // export default App;
 
-function App() {
-  return (
-    <div>
-      <h1>Student Attendance Tracker</h1>
+// function App() {
+//   return (
+//     <div>
+//       <h1>Student Attendance Tracker</h1>
 
-      <StudentCard
-        name="Sahana"
-        course="React"
-        batch="Batch A"
-      />
+//       <StudentCard
+//         name="Sahana"
+//         course="React"
+//         batch="Batch A"
+//       />
 
-      <StudentCard
-        name="shankaragouda"
-        course="React"
-        batch="Batch B"
-      />
-    </div>
-  );
-}
+//       <StudentCard
+//         name="shankaragouda"
+//         course="React"
+//         batch="Batch B"
+//       />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
+
