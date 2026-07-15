@@ -53,14 +53,27 @@ createRoot(document.getElementById("root")).render(
     //  task4
 
 
+// import { StrictMode } from "react";
+// import { createRoot } from "react-dom/client";
+// import "./index.css";
+
+// import App4 from "./Assignment/Food-Ordering-App/App4.jsx";
+
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     <App4 />
+//   </StrictMode>
+// );
+
+// task5
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-import App4 from "./Assignment/Food-Ordering-App/App4.jsx";
+import App5 from "./Assignment/Movie-Ticket-Booking/App5.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App4 />
+    <App5 />
   </StrictMode>
 );
