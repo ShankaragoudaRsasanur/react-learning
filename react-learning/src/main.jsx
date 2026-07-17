@@ -66,14 +66,30 @@ createRoot(document.getElementById("root")).render(
 // );
 
 // task5
+// import { StrictMode } from "react";
+// import { createRoot } from "react-dom/client";
+// import "./index.css";
+
+// import App5 from "./Assignment/Movie-Ticket-Booking/App5.jsx";
+
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     <App5 />
+//   </StrictMode>
+// );
+
+
+//  named and defalt export example
+
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-import App5 from "./Assignment/Movie-Ticket-Booking/App5.jsx";
+import App1 from "./Topics-react-chapter/App1.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App5 />
+    <App1 />
   </StrictMode>
 );
