@@ -97,14 +97,30 @@ createRoot(document.getElementById("root")).render(
 
 // defalt export
 
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+// import { StrictMode } from "react";
+// import { createRoot } from "react-dom/client";
+// import "./index.css";
+
+// import App1 from "./Topics-react-chapter/App1.jsx";
+
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     <App1 />
+//   </StrictMode>
+// );
+
+
+
+
+
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import App1 from "./Topics-react-chapter/App1.jsx";
+import App2 from "./Topics-react-chapter/App2.jsx";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App1 />
-  </StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App2/>
+  </React.StrictMode>
 );
