@@ -156,13 +156,13 @@
 // export default App;
 
 
-
+// -----------------------------------------------------------------------------------------------
 
 // states topics
 
 // defination of state is a variable that stores data and updates the UI (screen) whenever its value changes.
 // Without state, React cannot automatically update the UI.
-
+// -----------------------------------------------------------------------------------------------
 /*useState is a Hook.(1)
 
 It is used to create and manage state inside a functional component.
@@ -170,7 +170,7 @@ It is used to create and manage state inside a functional component.
 Syntax
 const [state, setState] = useState(initialValue);*/
 
-
+// ------------------------------------------------------------------------------------------------
 /* example for counter app
 
 import { useState } from "react";
@@ -194,7 +194,7 @@ function Counter() {
 
 export default Counter;
 */
-
+// ------------------------------------------------------------------------------------
 
 //  second example for button like button
 
@@ -219,7 +219,7 @@ function LikeButton() {
 
 export default LikeButton;
 
-
+--------------------------------------------------------------------------------------------------
 
 
 second state is updating state
@@ -231,7 +231,7 @@ const [count, setCount] = useState(0);
 
 // Update the value
 setCount(1);
-
+-----------------------------------------------------------------------------------------------
 
 State stores data that can change.
 useState() creates state.
@@ -246,7 +246,83 @@ Always update state like this:
 setCount(count + 1); //  Correct
 
 
+---------------------------------------------------------------------------------------------
 
+Event Handling topic:Event handling means React performs an action when the user interacts with the webpage.
+
+Examples of user actions:
+
+Clicking a button
+Typing in an input box
+Submitting a form
+Moving the mouse
+
+
+
+We use event handling to make our website interactive.
+
+Without event handling:
+
+The button does nothing.
+The input box cannot respond.
+The form cannot be submitted.
+
+With event handling:
+
+The button works.
+The input updates.
+The form submits.
+
+// ----------------------------------------------------------------------------------
+
+Common React Events
+Event	Purpose
+onClick	When a button is clicked
+onChange	When input value changes
+onSubmit	When a form is submitted
+onMouseOver	When the mouse moves over an element
+onKeyDown	When a keyboard key is pressed
+
+
+
+// ------------------EXAMPLE  BUTTON CLICK
+
+
+function App() {
+
+  function sayHello() {
+    alert("Hello Shankaragouda!");
+  }
+
+  return (
+    <button onClick={sayHello}>
+      Click Me
+    </button>
+  );
+}
+
+export default App;
+// ------------------------
+it works
+You click the button.
+onClick runs sayHello().
+An alert appears saying "Hello Shankaragouda!".
+
+
+// -------------------
+
+
+Summary
+Event = User action (click, type, submit).
+Event Handling = React responds to that action.
+onClick → Button click.
+onChange → Input typing.
+onSubmit → Form submission.
+Event = User action (click, type, submit).
+Event Handling = React responds to that action.
+onClick → Button click.
+onChange → Input typing.
+onSubmit → Form submission.
 
 
 
