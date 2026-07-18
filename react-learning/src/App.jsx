@@ -155,3 +155,43 @@
 
 // export default App;
 
+
+
+
+// states topics
+
+// defination of state is a variable that stores data and updates the UI (screen) whenever its value changes.
+// Without state, React cannot automatically update the UI.
+
+/*useState is a Hook.(1)
+
+It is used to create and manage state inside a functional component.
+
+Syntax
+const [state, setState] = useState(initialValue);*/
+
+
+/* example for counter app
+
+import { useState } from "react";
+
+function Counter() {
+
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+
+      <h1>{count}</h1>
+
+      <button onClick={() => setCount(count + 1)}>
+        Increase
+      </button>
+
+    </div>
+  );
+}
+
+export default Counter;
+*/
+
