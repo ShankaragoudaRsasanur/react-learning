@@ -195,3 +195,58 @@ function Counter() {
 export default Counter;
 */
 
+
+//  second example for button like button
+
+ /*import { useState } from "react";
+
+function LikeButton() {
+
+  const [likes, setLikes] = useState(0);
+
+  return (
+    <div>
+
+      <h2>Likes : {likes}</h2>
+
+      <button onClick={() => setLikes(likes + 1)}>
+        ❤️ Like
+      </button>
+
+    </div>
+  );
+}
+
+export default LikeButton;
+
+
+
+
+second state is updating state
+Updating State:Updating state means changing the current value using the setter function.
+
+Example:
+
+const [count, setCount] = useState(0);
+
+// Update the value
+setCount(1);
+
+
+State stores data that can change.
+useState() creates state.
+The first value (count) stores the current data.
+The second value (setCount) updates the data.
+When state changes, React automatically re-renders (updates) the UI.
+Never change state directly like this:
+count = count + 1;   // Wrong
+
+Always update state like this:
+
+setCount(count + 1); //  Correct
+
+
+
+
+
+
