@@ -325,4 +325,33 @@ onChange → Input typing.
 onSubmit → Form submission.
 
 
+// ----------Conditional Rendering-----------
+
+
+Conditional Rendering means showing different UI based on a condition.
+
+Just like in Java, we use if, else, or the ternary operator to make decisions. In React, we use them to decide what should appear on the screen.
+
+
+example     Using if...else
+function App() {
+  let isLoggedIn = true;
+
+  if (isLoggedIn) {
+    return <h1>Welcome Shankaragouda!</h1>;
+  } else {
+    return <h1>Please Login</h1>;
+  }
+}
+
+export default App;
+
+// ------------------------------------------
+
+Using Ternary Operator (Most Common)
+
+Syntax
+
+condition ? truePart : falsePart
+
 
