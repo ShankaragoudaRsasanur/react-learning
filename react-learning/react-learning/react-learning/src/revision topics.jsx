@@ -224,5 +224,110 @@ function App() {
 Output
 
 Age : 22
+--------------------------------------------------------------------------
+-----------component topic------------------
+Components
+What is a Component
 
+A Component is a reusable piece of UI.
+
+Example
+
+Instead of writing Navbar many times,
+
+Create one Navbar component.
+
+Use it anywhere.
+
+
+
+two types of componeets 
+1.functional components and  class components
+A Functional Component is a JavaScript function that returns JSX.
+
+It is the modern way of writing React components.
+
+Today, almost every React project uses Functional Components.
+
+Syntax
+function Home() {
+  return <h1>Welcome to Home Page</h1>;
+}
+
+export default Home;
+
+
+
+App.jsx
+import Home from "./Home";
+
+function App() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
+}
+
+export default App;
+Output
+Welcome to Home Page
+How it works
+function Home() {
+
+Creates a JavaScript function named Home.
+
+return
+
+Returns JSX (HTML-like code).
+
+<Home />
+
+Calls the component inside another component.
+
+----class components
+
+
+A Class Component is created using the JavaScript class keyword.
+
+Before React Hooks (useState, useEffect) were introduced, developers used Class Components.
+
+Nowadays, they are mainly seen in older React projects.
+
+Syntax
+import React, { Component } from "react";
+
+class Home extends Component {
+  render() {
+    return <h1>Welcome to Home Page</h1>;
+  }
+}
+
+export default Home;
+
+
+App.jsx
+import Home from "./Home";
+
+function App() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
+}
+
+export default App;
+Output
+Welcome to Home Page
+
+
+
+differnce between functional component and class components 
+Functional Component	Class Component
+Uses a function	                     Uses a class
+Simple and easy to write             More code
+Uses Hooks (useState, useEffect)	  Uses this.state and lifecycle methods
+Most popular today	                  Mostly used in older projects
+Easier to understand	               More complex
 */
