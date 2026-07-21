@@ -140,4 +140,89 @@ Output
 
 Hello React
 
+
+
+
+
+
+JSX stands for:JavaScript XML
+
+It allows us to write HTML inside JavaScript.
+
+Example
+
+Without JSX
+
+React.createElement("h1", null, "Hello");
+
+With JSX
+
+<h1>Hello</h1>
+
+Much easier.
+
+JSX Rules
+Rule 1 :Only one parent element.
+
+Correct
+
+return (
+    <div>
+        <h1>Hello</h1>
+        <p>Welcome</p>
+    </div>
+);
+
+Wrong
+
+return (
+<h1>Hello</h1>
+<p>Welcome</p>
+);
+
+
+Rule 2:Close all tags.
+
+Correct
+
+<img src="image.jpg" />
+
+Wrong
+
+<img src="image.jpg">
+
+
+Rule 3: Use className
+
+HTML
+
+<div class="box"></div>
+
+React
+
+<div className="box"></div>
+
+Rule 4:JavaScript inside {}
+
+
+const name = "Shankar";
+
+function App() {
+  return <h1>Hello {name}</h1>;
+}
+
+Output
+
+Hello Shankar
+Expressions Inside JSX
+const age = 22;
+
+function App() {
+  return <h1>Age : {age}</h1>;
+}
+
+Output
+
+Age : 22
+
 */
