@@ -39,9 +39,43 @@ Features of React
  Component-Based
 
 Virtual DOM
-
  Reusable Code
-
 Fast Rendering
+One-way Data
 
-One-way Data */
+-----------------------------------------------------------------------------
+
+2. Installing React Using Vite
+Step 1
+npm create vite@latest
+Step 2
+
+Project Name
+
+react-learning
+Step 3
+
+Select
+
+React
+Step 4
+
+Select
+
+JavaScript
+Step 5
+cd react-learning
+Step 6
+npm install
+Step 7
+npm run dev
+
+Output
+
+http://localhost:5173
+
+------------------------------------------------
+
+
+
+*/
