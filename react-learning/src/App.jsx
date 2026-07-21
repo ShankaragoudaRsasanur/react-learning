@@ -266,15 +266,15 @@
 // The button does nothing.
 // The input box cannot respond.
 // The form cannot be submitted.
-
+// 
 // With event handling:
-
+// 
 // The button works.
 // The input updates.
 // The form submits.
-
-// // ----------------------------------------------------------------------------------
-
+// 
+// // -------
+// 
 // Common React Events
 // Event	Purpose
 // onClick	When a button is clicked
@@ -383,18 +383,43 @@
 
 // instagram project app.jsx here
 
-import Instagram from "./Instagram1-Project/Instagram";
+// import Instagram from "./Instagram1-Project/Instagram";
+// function App() {
+//   return (
+//     <div>
+//       <Instagram />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Component/Navbar"; // or "./Components/Navbar" if you rename the folder
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+
 function App() {
   return (
-    <div>
-      <Instagram />
-    </div>
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
 export default App;
-
-
-
 
 
