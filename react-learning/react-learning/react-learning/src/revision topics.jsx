@@ -74,8 +74,70 @@ Output
 
 http://localhost:5173
 
-------------------------------------------------
+------------------------------------------------------------------------------------
+
+Folder Structure
+react-learning
+│
+├── node_modules
+├── public
+├── src
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── App.css
+├── package.json
+└── vite.config.js
 
 
+
+main.jsx
+Purpose
+
+This is the entry point of the React application.
+
+It renders the App component.
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <App />
+);
+
+Explanation
+
+ReactDOM creates the application.
+root is the div inside index.html.
+App component is displayed.
+
+
+
+--------------------------------------------------------------------
+
+
+App.jsx
+Purpose
+
+It is the main component.
+
+All other components are called inside App.jsx.
+
+Example
+
+function App() {
+  return (
+    <div>
+      <h1>Hello React</h1>
+    </div>
+  );
+}
+
+export default App;
+
+Output
+
+Hello React
 
 */
